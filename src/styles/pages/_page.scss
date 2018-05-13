@@ -1,0 +1,11 @@
+.Page {
+  background-color: $grey-0;
+
+  &--SignIn,
+  &--AddCars,
+  &--AddCFM,
+  &--AddRFM,
+  &--AddKAM {
+    background-color: $trans;
+  }
+}

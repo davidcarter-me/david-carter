@@ -1,0 +1,67 @@
+.Footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: $white;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  &--grey {
+    background: $grey-0;
+    border-top: 1px solid $black;
+  }
+
+  &--trans {
+    background: $trans;
+  }
+
+  &__inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 22px 0;
+
+    @include breakpoint($sm) {
+      flex-direction: row;
+    }
+
+    &__nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 15px 0;
+
+      @include breakpoint($sm) {
+        margin: 0;
+      }
+
+      &__list {
+        margin-top: auto;
+        margin-bottom: auto;
+        list-style-type: none;
+
+        &__item {
+          display: inline-block;
+          margin-right: 40px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    &__copyright {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &__text {
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+  }
+}

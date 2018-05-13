@@ -1,0 +1,96 @@
+.icon {
+  position: relative;
+  margin: 0 auto;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--email {
+    &--grey2 {
+      &:before {
+        width: 25px;
+        height: 17px;
+        background-image: url("#{$formImgPath}grey2/ic-email.svg");
+      }
+    }
+  }
+
+  &--password {
+    &--grey2 {
+      &:before {
+        width: 29px;
+        height: 16px;
+        background-image: url("#{$formImgPath}grey2/ic-password.svg");
+      }
+    }
+  }
+
+  &--showPassword {
+    cursor: pointer;
+    margin-right: 16px;
+
+    &:before {
+      width: 19px;
+      height: 12px;
+      background-image: url("#{$formImgPath}grey2/ic-showPassword.svg");
+    }
+  }
+
+  &--location {
+    &--white {
+      &:before {
+        width: 16px;
+        height: 16px;
+        background-image: url("#{$formImgPath}white/ic-location.svg");
+      }
+    }
+  }
+
+  &--locationPear {
+    &--white {
+      &:before {
+        width: 12px;
+        height: 16px;
+        background-image: url("#{$formImgPath}white/ic-locatiion-pear.svg");
+      }
+    }
+  }
+
+  &--dropping {
+    &--white {
+      &:before {
+        width: 17px;
+        height: 16px;
+        background-image: url("#{$formImgPath}white/ic-dropping.svg");
+      }
+    }
+  }
+
+  &--plus {
+    &--white {
+      &:before {
+        width: 13px;
+        height: 13px;
+        background-image: url("#{$formImgPath}white/ic-plus.svg");
+      }
+    }
+  }
+
+  &--downIcon {
+    cursor: pointer;
+
+    &:before {
+      width: 10px;
+      height: 7px;
+      background-image: url("#{$iconsImgPath}arrow-down.svg");
+    }
+  }
+}

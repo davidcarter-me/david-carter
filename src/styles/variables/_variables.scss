@@ -1,0 +1,22 @@
+$small-font-sizing: 12px;
+$default-font-sizing: 15px;
+$medium-font-sizing: 24px;
+$large-font-sizing: 45px;
+
+$small-sizing-unit: $small-font-sizing;
+$medium-sizing-unit: $medium-font-sizing;
+$default-sizing-unit: $default-font-sizing;
+$large-sizing-unit: $large-font-sizing;
+
+// Common
+$commonImgPath: "../images/components/common/";
+$buttonImgPath: $commonImgPath + "buttonIcons/";
+$formImgPath: $commonImgPath + "formIcons/";
+$socialImgPath: $commonImgPath + "SocialIcons/";
+$iconsImgPath: $commonImgPath + "Icons/";
+$helpImgPath: $commonImgPath + "HelpIcons/";
+$logosImgPath: $commonImgPath + "Logos/";
+
+// Routes
+$signInImgPath: "../images/routes/SignIn/";
+$journeySimulatorImgPath: "../images/routes/JourneySimulator/";
