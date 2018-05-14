@@ -7,9 +7,10 @@ export class TopProjects extends Component {
     const { projects } = this.props;
     return (
       <div className="TopProjects">
-        <h1>TopProjects</h1>
         <div className="TopProjects__content">
-          {projects.map((item, i) => <Project key={i} title={item.title} active={item.active} />)}
+          {projects.map((item, i) => (
+            <Project key={i} title={item.title} img={item.img} skills={item.skills} active={item.active} />
+          ))}
         </div>
       </div>
     );
