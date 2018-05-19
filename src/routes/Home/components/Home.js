@@ -33,17 +33,13 @@ export class Home extends Component {
           <div className="container">
             <div className="Home__inner">
               <div className="Home__masthead">
-                <div className="Home__masthead">
-                  <div className="Home__masthead__inner">
-                    <h2 className="Home__masthead__title">Top Projects</h2>
-                  </div>
+                <div className="Home__masthead__inner">
+                  <h2 className="Home__masthead__title">Top Projects</h2>
                 </div>
               </div>
               <div className="Home__content">
-                <div className="Home__content">
-                  <div className="Home__content__topProjects">
-                    <TopProjects projects={projects} />
-                  </div>
+                <div className="Home__content__topProjects">
+                  <TopProjects projects={projects} />
                 </div>
               </div>
             </div>

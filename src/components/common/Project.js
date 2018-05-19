@@ -8,8 +8,8 @@ export class Footer extends PureComponent {
       <article className="Project">
         <a href="#">
           <div className="Project__inner">
-            <h5 className="Project__title">{title}</h5>
             <div className={`Project__img Project__img--${img}`} />
+            <h5 className="Project__title">{title}</h5>
           </div>
         </a>
       </article>
