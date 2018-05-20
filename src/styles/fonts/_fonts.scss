@@ -115,14 +115,26 @@ $regular: 300;
 }
 
 @mixin OswaldBold() {
-  font-family: "Renault Life";
-  font-weight: bold;
+  font-family: "Oswald";
+  font-weight: 500;
+}
+
+@mixin LibreRegular() {
+  font-family: "Libre Baskerville";
+  font-weight: normal;
+  font-style: normal;
 }
 
 @mixin LibreItalic() {
-  font-family: "Read";
+  font-family: "Libre Baskerville";
   font-weight: normal;
   font-style: italic;
+}
+
+@mixin LibreBold() {
+  font-family: "Libre Baskerville";
+  font-weight: bold;
+  font-style: normal;
 }
 
 h1,

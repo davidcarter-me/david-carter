@@ -9,7 +9,14 @@ export class Footer extends PureComponent {
         <a href="#">
           <div className="Project__inner">
             <div className={`Project__img Project__img--${img}`} />
-            <h5 className="Project__title">{title}</h5>
+            <div>
+              <h5 className="Project__title">{title}</h5>
+            </div>
+            <div className="Project__skills">
+              {skills.map((skill, i) => (
+                <div key={i} className={`Project__skills__skill Project__skills__skill--${skill}`} />
+              ))}
+            </div>
           </div>
         </a>
       </article>

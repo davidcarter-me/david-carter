@@ -26,12 +26,29 @@
     &:before {
       content: "";
       display: block;
-      background: $white;
+      background: $black;
       position: absolute;
       left: 0;
       top: 50px;
-      width: 20px;
-      height: 4px;
+      width: 15px;
+      height: 3px;
+    }
+  }
+
+  &__skills {
+    &__skill {
+      position: relative;
+
+      &:before {
+        content: "";
+        display: block;
+        background-image: url($skillImgPath+"react.png");
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
