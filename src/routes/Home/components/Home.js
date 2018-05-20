@@ -9,22 +9,22 @@ export class Home extends Component {
       {
         title: "Luxure Global Citizen",
         img: "lgc",
-        skills: ["React", "Redux", "Sagas", "Selectors", "ES2016", "BEM"],
+        skills: ["react", "redux", "sagas", "selectors", "es2016", "bem"],
       },
       {
         title: "Gregs",
         img: "gregs",
-        skills: ["Angular", "jQuery", "BEM", "API"],
+        skills: ["angular", "jquery", "bem", "api"],
       },
       {
         title: "Sky Bet",
         img: "skyBet",
-        skills: ["React", "Redux", "Sagas", "Selectors", "Immutable.js", "API", "ES2016", "BEM"],
+        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
       },
       {
         title: "Renualt",
         img: "rfm",
-        skills: ["React", "Redux", "Sagas", "Selectors", "Immutable.js", "API", "ES2016", "BEM"],
+        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
       },
     ];
     return (

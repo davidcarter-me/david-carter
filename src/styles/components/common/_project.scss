@@ -1,5 +1,5 @@
 .Project {
-  width: 100%;
+  width: calc(100% / 4);
   border-top: 1px solid $black;
   padding: 20px 0 0;
   margin-right: 20px;
@@ -28,7 +28,7 @@
       display: block;
       background: $black;
       position: absolute;
-      left: 0;
+      left: 15px;
       top: 50px;
       width: 15px;
       height: 3px;
@@ -36,19 +36,64 @@
   }
 
   &__skills {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+
     &__skill {
       position: relative;
+      background-size: 100%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      margin-right: 15px;
 
-      &:before {
-        content: "";
-        display: block;
-        background-image: url($skillImgPath+"react.png");
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 20px;
-        height: 20px;
+      &:last-child {
+        margin-right: 0;
       }
+
+      &--react {
+        background-image: url($skillImgPath+"react.png");
+        width: 30px;
+        height: 30px;
+      }
+
+      &--redux {
+        background-image: url($skillImgPath+"redux.png");
+        width: 32px;
+        height: 30px;
+      }
+
+      &--angular {
+        background-image: url($skillImgPath+"angular.png");
+        width: 30px;
+        height: 30px;
+      }
+
+      &--sagas {
+        background-image: url($skillImgPath+"sagas.png");
+        width: 144px;
+        height: 30px;
+      }
+
+      // &--selectors {
+      //   background: url($skillImgPath+"selectors.png");
+      // }
+
+      &--ES2016 {
+        background-image: url($skillImgPath+"es2016.png");
+        width: 40px;
+        height: 30px;
+      }
+
+      &--jQuery {
+        background-image: url($skillImgPath+"jquery.png");
+        width: 118px;
+        height: 30px;
+      }
+
+      // &--Immutable {
+      //   background: url($skillImgPath+"BEM.png");
+      // }
     }
   }
 }
