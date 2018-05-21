@@ -13,6 +13,7 @@ export class Header extends PureComponent {
                 <img src={profileImage} alt="" />
               </div>
               <h1 className="Header__masthead__title">David Carter</h1>
+              <h2 className="Header__masthead__title">Front End Developer</h2>
               <div className="Header__masthead__social">social links</div>
             </div>
           </div>

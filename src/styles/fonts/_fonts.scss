@@ -4,18 +4,6 @@
 $fontsPath: "./fonts/files/";
 
 @font-face {
-  font-family: "Libre Baskerville";
-  src: url($fontsPath+"LibreBaskerville-Bold.eot");
-  src: url($fontsPath+"LibreBaskerville-Bold.eot?#iefix")
-    format("embedded-opentype"),
-    url($fontsPath+"LibreBaskerville-Bold.woff2") format("woff2"),
-    url($fontsPath+"LibreBaskerville-Bold.woff") format("woff"),
-    url($fontsPath+"LibreBaskerville-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Oswald";
   src: url($fontsPath+"Oswald-Regular.eot");
   src: url($fontsPath+"Oswald-Regular.eot?#iefix") format("embedded-opentype"),
@@ -23,63 +11,6 @@ $fontsPath: "./fonts/files/";
     url($fontsPath+"Oswald-Regular.woff") format("woff"),
     url($fontsPath+"Oswald-Regular.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url($fontsPath+"Oswald-Light.eot");
-  src: url($fontsPath+"Oswald-Light.eot?#iefix") format("embedded-opentype"),
-    url($fontsPath+"Oswald-Light.woff2") format("woff2"),
-    url($fontsPath+"Oswald-Light.woff") format("woff"),
-    url($fontsPath+"Oswald-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url($fontsPath+"Oswald-Bold.eot");
-  src: url($fontsPath+"Oswald-Bold.eot?#iefix") format("embedded-opentype"),
-    url($fontsPath+"Oswald-Bold.woff2") format("woff2"),
-    url($fontsPath+"Oswald-Bold.woff") format("woff"),
-    url($fontsPath+"Oswald-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Libre Baskerville";
-  src: url($fontsPath+"LibreBaskerville-Regular.eot");
-  src: url($fontsPath+"LibreBaskerville-Regular.eot?#iefix")
-    format("embedded-opentype"),
-    url($fontsPath+"LibreBaskerville-Regular.woff2") format("woff2"),
-    url($fontsPath+"LibreBaskerville-Regular.woff") format("woff"),
-    url($fontsPath+"LibreBaskerville-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url($fontsPath+"Oswald-SemiBold.eot");
-  src: url($fontsPath+"Oswald-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url($fontsPath+"Oswald-SemiBold.woff2") format("woff2"),
-    url($fontsPath+"Oswald-SemiBold.woff") format("woff"),
-    url($fontsPath+"Oswald-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Oswald";
-  src: url($fontsPath+"Oswald-ExtraLight.eot");
-  src: url($fontsPath+"Oswald-ExtraLight.eot?#iefix")
-    format("embedded-opentype"),
-    url($fontsPath+"Oswald-ExtraLight.woff2") format("woff2"),
-    url($fontsPath+"Oswald-ExtraLight.woff") format("woff"),
-    url($fontsPath+"Oswald-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
   font-style: normal;
 }
 
@@ -106,8 +37,29 @@ $fontsPath: "./fonts/files/";
   font-style: italic;
 }
 
-$bold: 700;
-$regular: 300;
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url($fontsPath+"LibreBaskerville-Italic.eot");
+  src: url($fontsPath+"LibreBaskerville-Italic.eot?#iefix")
+    format("embedded-opentype"),
+    url($fontsPath+"LibreBaskerville-Italic.woff2") format("woff2"),
+    url($fontsPath+"LibreBaskerville-Italic.woff") format("woff"),
+    url($fontsPath+"LibreBaskerville-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url($fontsPath+"FiraSans-SemiBold.eot");
+  src: url($fontsPath+"FiraSans-SemiBold.eot?#iefix")
+    format("embedded-opentype"),
+    url($fontsPath+"FiraSans-SemiBold.woff2") format("woff2"),
+    url($fontsPath+"FiraSans-SemiBold.woff") format("woff"),
+    url($fontsPath+"FiraSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
 
 @mixin OswaldRegular() {
   font-family: "Oswald";
@@ -119,25 +71,18 @@ $regular: 300;
   font-weight: 500;
 }
 
-@mixin LibreRegular() {
-  font-family: "Libre Baskerville";
-  font-weight: normal;
-  font-style: normal;
-}
-
 @mixin LibreItalic() {
   font-family: "Libre Baskerville";
   font-weight: normal;
   font-style: italic;
 }
 
-@mixin LibreBold() {
-  font-family: "Libre Baskerville";
-  font-weight: bold;
-  font-style: normal;
+@mixin FiraBold() {
+  font-family: "Fira Sans";
+  font-weight: 600;
 }
 
-h1,
+Fira Sans h1,
 .h1,
 h2,
 .h2,
@@ -153,5 +98,9 @@ h6,
   padding: 0;
   font-weight: normal;
   color: $black;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 /* stylelint-enable */

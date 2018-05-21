@@ -6,7 +6,7 @@ export const StandardLayout = ({ children }) => {
   console.log("StandardLayout", children);
   return (
     <div className="StandardLayout">
-      <Header renaultLogo="black" />
+      <Header />
       {children}
       <Footer colour="grey" />
     </div>

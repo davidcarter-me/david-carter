@@ -1,5 +1,5 @@
 .Project {
-  width: calc(100% / 4);
+  width: 25%;
   border-top: 1px solid $black;
   padding: 20px 0 0;
   margin-right: 20px;
@@ -17,7 +17,7 @@
   }
 
   &__title {
-    @include OswaldBold();
+    @include FiraBold();
 
     position: relative;
     font-size: 26px;
@@ -28,7 +28,7 @@
       display: block;
       background: $black;
       position: absolute;
-      left: 15px;
+      left: 10px;
       top: 50px;
       width: 15px;
       height: 3px;

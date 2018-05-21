@@ -34,7 +34,7 @@ export class Home extends Component {
             <div className="Home__inner">
               <div className="Home__masthead">
                 <div className="Home__masthead__inner">
-                  <h2 className="Home__masthead__title">Top Projects</h2>
+                  <h3 className="Home__masthead__title">Top Projects</h3>
                 </div>
               </div>
               <div className="Home__content">
