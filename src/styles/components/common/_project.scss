@@ -1,5 +1,8 @@
 .Project {
-  width: calc((100% / 4) - 20px);
+  border-top: 2px solid $black;
+  width: calc((100% / 4) - 15px);
+  padding-top: 20px;
+  margin-bottom: 20px;
 
   &__img {
     background: url($commonImgPath+"project/op6-3.jpg");
@@ -13,18 +16,18 @@
     @include FiraBold();
 
     position: relative;
-    font-size: 26px;
+    font-size: 22px;
     margin: 5px 0;
 
     &:before {
       content: "";
       display: block;
-      background: $black;
+      background: $grey-1;
       position: absolute;
-      left: 10px;
-      top: 50px;
+      left: 5px;
+      top: 45px;
       width: 15px;
-      height: 3px;
+      height: 2px;
     }
   }
 
@@ -46,26 +49,26 @@
 
       &--react {
         background-image: url($skillImgPath+"react.png");
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
       }
 
       &--redux {
         background-image: url($skillImgPath+"redux.png");
-        width: 32px;
-        height: 30px;
+        width: 21px;
+        height: 20px;
       }
 
       &--angular {
         background-image: url($skillImgPath+"angular.png");
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
       }
 
       &--sagas {
         background-image: url($skillImgPath+"sagas.png");
-        width: 144px;
-        height: 30px;
+        width: 96px;
+        height: 20px;
       }
 
       // &--selectors {
@@ -74,14 +77,14 @@
 
       &--ES2016 {
         background-image: url($skillImgPath+"es2016.png");
-        width: 40px;
-        height: 30px;
+        width: 27px;
+        height: 20px;
       }
 
       &--jQuery {
         background-image: url($skillImgPath+"jquery.png");
-        width: 118px;
-        height: 30px;
+        width: 79px;
+        height: 20px;
       }
 
       // &--Immutable {
