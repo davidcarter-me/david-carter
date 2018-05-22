@@ -26,6 +26,26 @@ export class Home extends Component {
         img: "rfm",
         skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
       },
+      {
+        title: "Luxure Global Citizen",
+        img: "lgc",
+        skills: ["react", "redux", "sagas", "selectors", "es2016", "bem"],
+      },
+      {
+        title: "Gregs",
+        img: "gregs",
+        skills: ["angular", "jquery", "bem", "api"],
+      },
+      {
+        title: "Sky Bet",
+        img: "skyBet",
+        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+      },
+      {
+        title: "Renualt",
+        img: "rfm",
+        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+      },
     ];
     return (
       <Page pageClass="Home" title="Home">
