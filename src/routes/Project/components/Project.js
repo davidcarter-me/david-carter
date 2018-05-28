@@ -9,7 +9,6 @@ export class Project extends Component {
     console.log("Project props", params.project);
     console.log("content", content);
     const project = content[params.project.toUpperCase()];
-    // console.log("{[params.project].title}", content[project]);
     return (
       <Page pageClass="Project" title="Project">
         <div className="Project">
@@ -18,6 +17,7 @@ export class Project extends Component {
               <div className="Project__masthead">
                 <div className="Project__masthead__inner">
                   <h1 className="Project__masthead__title">{project.TITLE}</h1>
+                  <h2 className="Project__masthead__title">{project.SUBTITLE}</h2>
                 </div>
               </div>
             </div>
