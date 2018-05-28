@@ -1,10 +1,17 @@
 import React, { Component } from "react";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 import Page from "layouts/Page";
 
 export class Project extends Component {
   render() {
-    console.log("Project props", this.props);
+    const params = this.props.params;
+    console.log("Project props", params.project);
+    const PROJECT = {
+      GREGGS: {
+        TITLE: "Greggs",
+        SUBTITLE: "Greggs Subtitle.",
+      },
+    };
     return (
       <Page pageClass="Project" title="Project">
         <div className="Project">
@@ -24,7 +31,7 @@ export class Project extends Component {
 }
 
 Project.propTypes = {
-  // contentGetPosts: PropTypes.func.isRequired,
+  params: PropTypes.object.isRequired,
   // postsContent: PropTypes.array.isRequired,
 };
 
