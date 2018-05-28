@@ -1,17 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Page from "layouts/Page";
+import content from "../content/content";
 
 export class Project extends Component {
   render() {
     const params = this.props.params;
     console.log("Project props", params.project);
-    const PROJECT = {
-      GREGGS: {
-        TITLE: "Greggs",
-        SUBTITLE: "Greggs Subtitle.",
-      },
-    };
+    console.log("content", content);
+    const project = content[params.project.toUpperCase()];
+    // console.log("{[params.project].title}", content[project]);
     return (
       <Page pageClass="Project" title="Project">
         <div className="Project">
@@ -19,7 +17,7 @@ export class Project extends Component {
             <div className="Project__inner">
               <div className="Project__masthead">
                 <div className="Project__masthead__inner">
-                  <h3 className="Project__masthead__title">Top Project</h3>
+                  <h1 className="Project__masthead__title">{project.TITLE}</h1>
                 </div>
               </div>
             </div>

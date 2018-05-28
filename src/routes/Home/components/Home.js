@@ -10,7 +10,7 @@ export class Home extends Component {
         title: "Luxure Global Citizen",
         img: "lgc",
         skills: ["react", "redux", "sagas", "es2016", "bem"],
-        route: "/luxure-global-citizen",
+        route: "luxure-global-citizen",
       },
       {
         title: "Greggs",

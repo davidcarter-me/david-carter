@@ -1,35 +1,10 @@
 /* eslint max-len: */ // --> OFF
 const content = {
-  header: {
-    title: "Welcome to the Fleet Manager platform",
-    subTitle: "To start add some Cars.",
-  },
-  uploadSection: {
-    title: "Or you can",
-    subTitle: "upload a list of Company Fleet Managers.",
-  },
-  form: {
-    vehicleType: {
-      label: "Vehicle Type",
-    },
-    fuelType: {
-      label: "Fuel Type",
-    },
-    AverageMPG: {
-      label: "Average MPG",
-    },
-    leaseingEndDate: {
-      label: "Leasing End Date",
-    },
-    plateNumber: {
-      label: "Plate Number",
-    },
-    returnCar: {
-      label: "The car will return to the company at night",
-    },
-    button: {
-      text: "Add",
-    },
+  GREGGS: {
+    TITLE: "Greggs",
+    SUBTITLE: "Greggs Subtitle.",
+    body:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi aliquam tincidunt neque, ac tincidunt nibh molestie eget. Nullam massa tellus, imperdiet ac velit ac, venenatis placerat velit. Ut finibus ullamcorper tellus a congue. Pellentesque vel cursus lorem. Fusce lectus metus, elementum id augue vitae, egestas fringilla diam. Curabitur laoreet ligula elementum neque interdum, et luctus mi blandit. Donec pharetra lacinia felis. Sed luctus eu tortor lacinia auctor.Vivamus consequat enim nec pulvinar rutrum.Sed feugiat tincidunt risus, eu feugiat justo blandit at.Etiam convallis lobortis ligula in gravida.Nam in venenatis leo.Sed urna dolor, interdum fermentum velit ac, dapibus volutpat purus.Praesent eu tincidunt dui.Cras id ultricies ligula. Nam ac diam ac nulla feugiat consectetur.Maecenas cursus sed tortor eget mollis.Nulla facilisi.Nulla nec lorem massa.Nullam a sagittis tortor, eget ullamcorper ex.Suspendisse rhoncus lectus luctus, consectetur urna quis, volutpat tellus.Mauris tincidunt erat vitae sapien tincidunt, fermentum consequat risus hendrerit.Praesent sed risus egestas, lacinia mi non, egestas dolor. Nullam dignissim fermentum diam vitae varius.Integer consectetur, urna consectetur aliquam ornare, leo velit elementum velit, sed pulvinar ligula velit et ex.Nunc mollis congue tristique.Aliquam ac ultricies sapien.In hac habitasse platea dictumst.Curabitur at tortor ac velit accumsan elementum ac vitae eros.Nulla nisl enim, aliquet sed turpis id, lobortis fringilla eros.Vivamus eget suscipit lorem, quis elementum lectus.Mauris feugiat tortor ante, vitae condimentum eros lobortis at.Nam a massa ut ante tincidunt porta ac vel risus.Donec mollis diam nunc, eget blandit purus varius id.Duis bibendum erat quis velit rhoncus gravida.Vestibulum leo lectus, luctus eget ligula vel, mattis varius sem.Suspendisse mattis nec felis ut aliquet.Ut quis lacus enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Praesent a massa purus.Quisque non mi rhoncus, convallis tellus vel, laoreet lectus.Quisque volutpat bibendum justo ac ullamcorper.Morbi eget varius elit.Proin nec vulputate orci.Suspendisse fringilla pretium felis in viverra.Phasellus vulputate volutpat augue a porta.Nullam accumsan erat ac finibus faucibus.Fusce nec scelerisque nisl.Morbi vestibulum viverra felis in rhoncus.Nullam quis imperdiet ex, laoreet imperdiet nibh.",
   },
 };
 export default content;
