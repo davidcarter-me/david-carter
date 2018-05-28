@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import profileImage from "images/components/common/header/profile_image.jpg";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 export class Header extends PureComponent {
   render() {
@@ -23,8 +23,8 @@ export class Header extends PureComponent {
   }
 }
 
-Header.propTypes = {
-  // renaultLogo: PropTypes.string.isRequired,
-};
+// Header.propTypes = {
+//   // renaultLogo: PropTypes.string.isRequired,
+// };
 
 export default Header;
