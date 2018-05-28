@@ -9,42 +9,50 @@ export class Home extends Component {
       {
         title: "Luxure Global Citizen",
         img: "lgc",
-        skills: ["react", "redux", "sagas", "selectors", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "es2016", "bem"],
+        route: "/luxure-global-citizen",
       },
       {
-        title: "Gregs",
-        img: "gregs",
+        title: "Greggs",
+        img: "greggs",
         skills: ["angular", "jquery", "bem", "api"],
+        route: "greggs",
       },
       {
         title: "Sky Bet",
         img: "skyBet",
-        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
+        route: "sky-bet",
       },
       {
         title: "Renualt",
         img: "rfm",
-        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
+        route: "renualt",
       },
       {
         title: "Luxure Global Citizen",
         img: "lgc",
-        skills: ["react", "redux", "sagas", "selectors", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "es2016", "bem"],
+        route: "renualt",
       },
       {
         title: "Gregs",
         img: "gregs",
         skills: ["angular", "jquery", "bem", "api"],
+        route: "renualt",
       },
       {
         title: "Sky Bet",
         img: "skyBet",
-        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
+        route: "renualt",
       },
       {
         title: "Renualt",
         img: "rfm",
-        skills: ["react", "redux", "sagas", "selectors", "immutable.js", "api", "es2016", "bem"],
+        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
+        route: "renualt",
       },
     ];
     return (

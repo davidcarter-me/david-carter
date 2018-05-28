@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 export class Footer extends PureComponent {
   render() {
-    const { title, img, skills } = this.props;
+    const { title, img, skills, route } = this.props;
     return (
       <article className="Project">
-        <a href="#">
+        <a href={`projects/${route}`}>
           <div className="Project__inner">
             <div className={`Project__img Project__img--${img}`} />
             <div>
@@ -28,6 +28,7 @@ Footer.propTypes = {
   title: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   skills: PropTypes.array.isRequired,
+  route: PropTypes.string.isRequired,
 };
 
 export default Footer;

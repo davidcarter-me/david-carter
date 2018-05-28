@@ -34,14 +34,15 @@
   &__skills {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
 
     &__skill {
       position: relative;
       background-size: 100%;
-      background-position: 50% 50%;
       background-repeat: no-repeat;
-      margin-right: 15px;
+      background-position: center;
+      margin: 0 15px 10px 0;
 
       &:last-child {
         margin-right: 0;
@@ -71,25 +72,40 @@
         height: 20px;
       }
 
-      // &--selectors {
-      //   background: url($skillImgPath+"selectors.png");
-      // }
+      &--api {
+        background: url($skillImgPath+"api.png");
+        width: 96px;
+        height: 20px;
+        background-size: contain;
+      }
 
-      &--ES2016 {
+      &--es2016 {
         background-image: url($skillImgPath+"es2016.png");
         width: 27px;
         height: 20px;
       }
 
-      &--jQuery {
+      &--jquery {
         background-image: url($skillImgPath+"jquery.png");
-        width: 79px;
+        width: 20px;
         height: 20px;
       }
 
-      // &--Immutable {
-      //   background: url($skillImgPath+"BEM.png");
-      // }
+      &--immutable {
+        background: url($skillImgPath+"immutable.svg");
+        width: 140px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+
+      &--bem {
+        background: url($skillImgPath+"bem.png");
+        width: 24px;
+        height: 20px;
+        background-size: contain;
+      }
     }
   }
 }

@@ -9,7 +9,7 @@ export class TopProjects extends Component {
       <div className="TopProjects">
         <div className="TopProjects__content">
           {projects.map((item, i) => (
-            <Project key={i} title={item.title} img={item.img} skills={item.skills} active={item.active} />
+            <Project key={i} title={item.title} img={item.img} skills={item.skills} route={item.route} />
           ))}
         </div>
       </div>
