@@ -7,16 +7,16 @@ export class Home extends Component {
   render() {
     const projects = [
       {
-        title: "Luxure Global Citizen",
+        title: "Renault Fleet Manager",
+        img: "rfm",
+        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
+        route: "renault-fleet-manager",
+      },
+      {
+        title: "Luxure Global Citizedn",
         img: "lgc",
         skills: ["react", "redux", "sagas", "es2016", "bem"],
         route: "luxure-global-citizen",
-      },
-      {
-        title: "Greggs",
-        img: "greggs",
-        skills: ["angular", "jquery", "bem", "api"],
-        route: "greggs",
       },
       {
         title: "Sky Bet",
@@ -25,10 +25,10 @@ export class Home extends Component {
         route: "sky-bet",
       },
       {
-        title: "Renualt",
-        img: "rfm",
-        skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
-        route: "renualt",
+        title: "Greggs",
+        img: "greggs",
+        skills: ["angular", "jquery", "bem", "api"],
+        route: "greggs",
       },
       {
         title: "Luxure Global Citizen",
@@ -49,10 +49,10 @@ export class Home extends Component {
         route: "renualt",
       },
       {
-        title: "Renualt",
+        title: "Renault",
         img: "rfm",
         skills: ["react", "redux", "sagas", "immutable", "api", "es2016", "bem"],
-        route: "renualt",
+        route: "renault",
       },
     ];
     return (
